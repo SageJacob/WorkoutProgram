@@ -55,8 +55,7 @@ void workout(int period)
 {
 	int input;
 	// Ask for user input to identify when the workout has completed
-	printf("Press any number at the end of your workout to begin");
-	printf(" your rest. ");
+	printf("Press any number at the end of your workout to begin your rest. ");
 	scanf("%d", &input);
 	// Workout is finished. Begin the 30 second grace period
 	grace_period(period);
